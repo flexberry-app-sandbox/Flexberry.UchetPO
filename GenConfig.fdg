@@ -25,9 +25,9 @@
       }
     },
     "Backend": {
-      "AspNet": false,
+      "AspNet": true,
       "AspNetCore": false,
-      "Java": true
+      "Java": false
     },
     "Docker": {
       "Dockerfile": true,
@@ -37,8 +37,8 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": false,
-        "FullSql": false,
+        "DiffSql": true,
+        "FullSql": true,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
@@ -46,7 +46,7 @@
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
